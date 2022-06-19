@@ -11,3 +11,8 @@ Then cd into the repo and chmod the installation script
 cd my-zsh-profile
 chmod +x ./install.sh
 ```
+
+After doing that just run
+```css
+./install.sh
+```
