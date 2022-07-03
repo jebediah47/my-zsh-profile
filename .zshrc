@@ -23,3 +23,4 @@ alias dir='dir --color=auto'
 source ~/.zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
 
+export PATH=$PATH:/home/jeb47/.spicetify:/home/jeb47/go/bin
