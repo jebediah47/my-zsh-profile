@@ -9,6 +9,9 @@ git clone https://github.com/dylanaraps/pfetch
 cd pfetch
 sudo make install
 
+# Install spicetify
+curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
+
 # Return to home dir
 cd ~
 
