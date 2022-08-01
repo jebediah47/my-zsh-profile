@@ -22,10 +22,10 @@ curl -sS https://starship.rs/install.sh | sh
 
 # Clone plugins to ~/.zsh dir
 ## Starting with zsh-syntax-highlighting
-git clone https://github.com/zsh-users/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.zsh/plugins
 
 ## Then with zsh-autocomplete
-git clone https://github.com/marlonrichert/zsh-autocomplete
+git clone https://github.com/marlonrichert/zsh-autocomplete ~/.zsh/plugins
 
 
 ## Clone my profile to ~ dir
