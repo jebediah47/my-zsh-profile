@@ -29,6 +29,5 @@ git clone https://github.com/marlonrichert/zsh-autocomplete ~/.zsh/plugins
 
 
 ## Clone my profile to ~ dir
-cd ~
-wget -c https://raw.githubusercontent.com/jebediah47/my-zsh-profile/main/.zshrc
+cp .zshrc ~
 
