@@ -5,16 +5,6 @@ mkdir -p ~/.zsh/plugins
 mkdir ~/.zsh/plugins/zsh-syntax-highlighting
 mkdir ~/.zsh/plugins/zsh-autocomplete
 
-# Clone and install pfetch
-cd ~/Downloads
-git clone https://github.com/dylanaraps/pfetch
-cd pfetch
-sudo make install
-
-# Return to home dir
-cd ~
-
-
 # Install starship
 curl -sS https://starship.rs/install.sh | sh
 
