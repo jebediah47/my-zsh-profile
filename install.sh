@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Make plugins folder
 mkdir -p ~/.zsh/plugins
@@ -8,6 +8,8 @@ mkdir ~/.zsh/plugins/zsh-autocomplete
 # Install starship
 curl -sS https://starship.rs/install.sh | sh
 
+# Install Bun
+curl -fsSL https://bun.sh/install | bash
 
 # Clone plugins to ~/.zsh dir
 ## Starting with zsh-syntax-highlighting
@@ -16,7 +18,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.zsh/plugins/zs
 ## Then with zsh-autocomplete
 git clone https://github.com/marlonrichert/zsh-autocomplete ~/.zsh/plugins/zsh-autocomplete
 
-
-## Clone my profile to ~ dir
+## Clone the zsh config to ~
 cd ~
 wget -c https://raw.githubusercontent.com/jebediah47/my-zsh-profile/main/.zshrc
+

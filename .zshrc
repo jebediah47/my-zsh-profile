@@ -1,8 +1,12 @@
 eval "$(starship init zsh)"
-pfetch
 
-# Useful aliases
-alias clear='clear && pfetch'
+export TERM=xterm-256color
+
+# add to ~/.zshrc
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$HOME/.cargo/bin:$HOME.local/bin:$PATH"
+export DOTNET_CLI_TELEMETRY_OUTPUT=1
+
 # Replace ls with exa
 alias ls='eza -al --color=always --group-directories-first --icons' # preferred listing
 alias la='eza -a --color=always --group-directories-first --icons'  # all files and dirs
@@ -23,4 +27,6 @@ alias dir='dir --color=auto'
 source ~/.zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
 
-export PATH=$PATH:/home/jeb47/.spicetify:/home/jeb47/go/bin
+# bun completions
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
+
